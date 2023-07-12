@@ -1,0 +1,9 @@
+Catting PS and PDF Files to the Terminal
+
+And Ghostscript also has sixel support:
+
+  gs -q -r35x -dBATCH -sDEVICE=ln03 -sOutputFile=- tiger.eps
+
+But ImageMagick convert looks a little nicer:
+
+  convert tiger.eps -resize=350x^200 sixel:-

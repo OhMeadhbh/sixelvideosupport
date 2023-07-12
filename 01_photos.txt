@@ -1,0 +1,17 @@
+Cat Image Files to STDOUT
+
+One thing this lets you do is cat images to the terminal.
+
+The Imagemagick `convert` utility has sixel support and you
+can use a command like these to display an image on the
+terminal:
+
+  convert 00_test_card.png -resize 350x^200 sixel:-
+
+Drop the -resize option to print it out original size:
+
+  convert 01_moon_landing.png sixel:-
+
+This one makes the image full width:
+
+  convert 00_test_card.png -resize $((10 *`tput cols`))x^200 sixel:-

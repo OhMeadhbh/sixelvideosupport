@@ -1,0 +1,19 @@
+What is/are Sixel/Sixels?
+
+Sixel is a graphics format supported by DEC VT240, VT241,
+VT330 and VT340 series terminals.
+
+It allowed a host computer to stream image data to a terminal,
+which would either display the image on the terminal's screen
+or use it to define custom characters.
+
+The standard "xterm" terminal emulator on X/Windows and Term2
+on recent versions of MS-Windows (10, 11) support Sixel
+graphics.
+
+This is interesting because you can now display images on
+terminals after ssh'ing into remote systems.
+
+This is very useful because you can create graphical utilities
+on remote systems //without// opening a http(s) port.  If you
+can ssh to it, you can use it to generate graphics.

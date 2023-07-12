@@ -1,0 +1,12 @@
+How About Web Pages?
+
+I usually use a text browser like EWW or Lynx if I want to
+browse the web from a terminal.
+
+But if you want to see it the way a graphical browswer would
+render it, you can use the wkhtmltoimage and ImageMagic convert
+utilities to grab a page and render it to the screen.
+
+Let's look at the Sixel Wikipedia page at
+https://en.wikipedia.org/wiki/Sixel:
+

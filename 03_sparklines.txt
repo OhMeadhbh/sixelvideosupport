@@ -1,0 +1,7 @@
+Let's Display Some Sparklines
+
+But most of what I do with sixels is to display sparklines on
+Linux machines I administer remotely.
+
+Here's an example of what it might look like:
+

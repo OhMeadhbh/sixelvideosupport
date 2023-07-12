@@ -1,0 +1,16 @@
+// .Xresources
+//
+// Copyright (c) 1993-2023, Meadhbh S. Hamrick
+// Released under terms described in the ./LICENCE file
+//
+// Cat the contents of this file to your ~/.Xresources file
+// and run this command to activate sixel support in new
+// XTerm windows you create:
+//
+//   cat < Xresources.fragments >> ~/.Xresources
+//   xrdb -merge < ~/.Xresources
+//
+// Try logging out and logging back in if it doesn't work.
+
+XTerm*decTerminalID: vt340
+XTerm*numColorRegisters: 256
